@@ -1,0 +1,20 @@
+# Message Input
+message_txt = open('Wamessage.dat', 'r')
+msg_full = message_txt.readlines()
+# message end
+
+msg = []
+for line in msg_full:
+    msg.append(line.strip())
+    # send message
+
+# print(Question)
+message_txt.close()
+
+a = 0
+for a in msg:
+    #msg_box = driver.find_element_by_xpath('//*[@id="main"]/footer/div[1]/div[2]/div/div[2]')
+    #msg_box.send_keys(a)
+    #msg_box.send_keys(Keys.SHIFT + Keys.RETURN)
+    print(msg)
+    # looping between sending the text
