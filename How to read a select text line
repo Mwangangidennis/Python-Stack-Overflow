@@ -1,0 +1,4 @@
+with open('Grp_temp.txt') as f:
+    line = f.readline()
+    G_name = line.strip()
+    print(G_name)
